@@ -1,0 +1,52 @@
+.main {
+  height: 100%;
+  width: 250px;
+  transition: all 0.2s;
+  position: relative;
+  padding-top: 10px;
+  box-sizing: border-box;
+
+  > svg {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+  }
+
+  ul {
+    padding: 5px;
+    font-size: 24px;
+
+    li {
+      width: 100%;
+
+      box-sizing: border-box;
+      a {
+        padding: 5px;
+        box-sizing: border-box;
+        border-radius: 5px;
+        text-decoration: none;
+        display: block;
+        width: 100%;
+        color: inherit;
+        &:hover {
+          background-color: rgba(0, 0, 0, 0.259);
+        }
+
+        span {
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+}
+
+.main.collapsed {
+  width: 50px;
+
+  ul > li > a {
+    text-align: center;
+    span {
+      display: none;
+    }
+  }
+}

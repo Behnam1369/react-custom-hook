@@ -1,0 +1,45 @@
+.app.light {
+  header,
+  nav {
+    background-color: #808080;
+    color: #ff0;
+  }
+
+  button {
+    background-color: #cc0000;
+    color: white;
+  }
+
+  .left {
+    background-color: #cecece;
+    color: #2f4f4f;
+  }
+
+  .right {
+    background-color: white;
+    color: #000000;
+  }
+}
+
+.app.dark {
+  header,
+  nav {
+    background-color: #c0c0c0;
+    color: #2f4f4f;
+  }
+
+  button {
+    background-color: #f0f8ff;
+    color: #800080;
+  }
+
+  .left {
+    background-color: white;
+    color: #696969;
+  }
+
+  .right {
+    background-color: #008080;
+    color: white;
+  }
+}
